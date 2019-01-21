@@ -1,0 +1,76 @@
+.header > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.content > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.footer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+}
+html, body {
+  box-sizing: border-box;
+  background-color: white;
+  height: 100%;
+  margin: 0px;
+}
+header{
+  box-sizing: border-box;
+  background-color: black;
+  margin: 0px;
+  text-decoration-color: white;
+}
+
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+
+/* unvisited link */
+a:link {
+  color: aqua;
+}
+
+/* visited link */
+a:visited {
+  color: hotpink;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.content > div:nth-child(1n) {
+  background-color: white;
+}
+
+.content > div:nth-child(2n) {
+  background-color: gray;
+}
+
+.content > div:nth-child(3n) {
+  background-color: gray;
+}
+
+/*.container > div:nth-child(4n) {
+  background-color: #ffcc5c;
+}*/
